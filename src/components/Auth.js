@@ -6,9 +6,9 @@ const Auth = () => {
     const data = useContext(AuthContext)
     
   return (
-    <div className='authText'>
+    <div>
     {
-        data?<p>You are now authenticated,you can proceed</p>:<p>you are not authenticated</p>
+        data?<p className='authText'>You are now authenticated,you can proceed</p>:<p className='authText'>you are not authenticated</p>
     }
     </div>
   )
