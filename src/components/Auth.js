@@ -8,7 +8,7 @@ const Auth = () => {
   return (
     <div>
     {
-        data?<p className='authText'>You are now authenticated,you can proceed</p>:<p className='authText'>you are not authenticated</p>
+        data?<p className='authText'>You are now authenticated, you can proceed</p>:<p className='authText'>you are not authenticated</p>
     }
     </div>
   )
